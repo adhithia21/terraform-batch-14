@@ -1,6 +1,6 @@
 // DELETED
 terraform {
-    source = "../../../../module/google/vpc"
+    source = "../../../../../module/google/vpc"
 }
 
 include {
