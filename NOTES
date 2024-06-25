@@ -1,0 +1,11 @@
+PAT     : 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
+Secret  : Atlantis#123
+
+sudo atlantis server \
+--atlantis-url="http://34.101.74.161" \
+--gh-user="adhithia21" \
+--gh-token="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" \
+--gh-webhook-secret="Atlantis#123" \
+--repo-allowlist="github.com/adhithia21/terraform-batch-14" \
+--port=80 \
+--repo-config="/etc/atlantis/config.yaml"
