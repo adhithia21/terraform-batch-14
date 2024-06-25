@@ -1,3 +1,4 @@
+// DELETED
 terraform {
     source = "../../../../module/google/vpc"
 }
